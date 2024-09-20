@@ -11,7 +11,7 @@ Currently, my focus is on full-stack web development. On the front-end, I’m le
 
 I’m excited to embrace new opportunities in the ever-evolving world of programming and technology.
 
-If you need assistance with your app development, feel free to contact me at: <a href="mailto:yatsugisaiba@gmail.com" style="color: #00BFFF; text-decoration: none;"><b>yatsugisaiba@gmail.com</b></a>
+Feel free to contact me at: <a href="mailto:yatsugisaiba@gmail.com" style="color: #00BFFF; text-decoration: none;"><b>yatsugisaiba@gmail.com</b></a>
 <br>
 <br>
 <br>
