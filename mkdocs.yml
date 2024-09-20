@@ -11,16 +11,18 @@ theme:
         accent: red
         scheme: slate
         toggle:
-          icon: material/toggle-switch-off-outline
+          # icon: material/toggle-switch-off-outline
+          icon: material/lightbulb-outline
           name: Switch to light mode
           
       # Palette toggle for light mode
       - media: "(prefers-color-scheme: light)"
-        primary: red
-        accent: light blue
+        primary: blue grey
+        accent: red
         scheme: default
         toggle:
-          icon: material/toggle-switch 
+          # icon: material/toggle-switch
+          icon: material/lightbulb
           name: Switch to dark mode  
           
   logo: assets/logos/88saiba-logo-removebg-preview.png
