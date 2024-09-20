@@ -1,0 +1,123 @@
+site_name: 88SAIBA
+site_description: In Personal Devblog-site
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  palette: 
+  
+      # Palette toggle for dark mode
+      - media: "(prefers-color-scheme: dark)"
+        primary: light blue
+        accent: red
+        scheme: slate
+        toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to light mode
+          
+      # Palette toggle for light mode
+      - media: "(prefers-color-scheme: light)"
+        primary: red
+        accent: light blue
+        scheme: default
+        toggle:
+          icon: material/toggle-switch 
+          name: Switch to dark mode  
+          
+  logo: assets/logos/88saiba-logo-removebg-preview.png
+  favicon: assets/logos/88saiba-logo-removebg-preview.png
+  language: en
+  font:
+      text: Nunito
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+
+plugins:
+  - search
+  - social
+  - tags:
+        tags_file: home/tags.md
+  - blog:
+        blog_dir: blog
+        post_dir: "{blog}/posts"
+        # archive: false
+        archive_date_format: MMMM yyyy
+        categories_allowed:
+          - Devlog
+          - News
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.tasklist:
+        custom_checkbox: true
+  - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+     alternate_style: true
+  - pymdownx.emoji:
+     emoji_index: !!python/name:material.extensions.emoji.twemoji
+     emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra:
+  generator: true
+  # alternate:
+      # - name: English
+        # link: /en/
+        # lang: en
+      # - name: Indonesian
+        # link: /id/
+        # lang: id
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/88saiba
+      name: "github"
+    - icon: fontawesome/brands/x-twitter 
+      link: https://x.com/88saiba
+      name: "x.com"
+
+nav:
+    - Home: 
+        - index.md
+        - Oldest posts: home/oldest.md
+        - Tags: home/tags.md
+    - Posts:
+        - blog/index.md
+    - About: 
+        - Me: about/about.md
+        - Projects: about/projects.md
+        
+copyright: Copyright &copy; 2023 - 2024 Gillar Ajie Prasatya
