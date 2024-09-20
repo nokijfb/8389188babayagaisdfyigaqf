@@ -3,13 +3,6 @@
 Nickname : <a href="https://x.com/88saiba">88saiba</a><br>
 Pennemu : <a href="https://github.com/88saiba">Yatsugi Saiba | 八次才葉</a>
 
-Almost perfect! Just a small adjustment to the phrase "on this years" for better clarity. Here's a corrected version:
-
----
-Tentu! Berikut adalah versi bahasa Inggris yang sudah diperbarui dengan kalimat yang kamu tambahkan:
-
----
-
 I became acquainted with programming in 2015, but at the time, I couldn’t focus on it due to my role as a customer service representative. Learning resources were also scarce and often came with unaffordable fees. In 2023, I shifted my focus to programming more seriously, thanks to the increased accessibility of learning resources in recent years, many of which are now available for free. This made it easier to commit fully and consistently to pivoting to becoming a programmer.
 
 My interests span a wide range of technologies and programming languages, with a particular focus on Machine Learning (ML) and Artificial Intelligence (AI). While still building a strong foundation, I’ve decided to start with the basics.
