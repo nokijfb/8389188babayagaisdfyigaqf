@@ -7,7 +7,7 @@ I became acquainted with programming in 2015, but at the time, I couldn’t focu
 
 My interests span a wide range of technologies and programming languages, with a particular focus on Machine Learning (ML) and Artificial Intelligence (AI). While still building a strong foundation, I’ve decided to start with the basics.
 
-Currently, my focus is on full-stack web development. On the front-end, I’m learning JavaScript, while on the back-end, I’m working with Python due to its extensive libraries and frameworks, which are crucial for both present and future needs.
+Currently, my focus is on full-stack web development. On the front-end, I’m using JavaScript, while on the back-end, I’m working with Python due to its extensive libraries and frameworks, which are crucial for both present and future needs.
 
 I’m excited to embrace new opportunities in the ever-evolving world of programming and technology.
 
