@@ -10,17 +10,7 @@ theme:
         toggle:
           # icon: material/brightness-auto
           icon: material/lightbulb-auto
-          name: Switch to light mode 
-            
-      # Palette toggle for light mode
-      - media: "(prefers-color-scheme: light)"
-        primary: blue grey
-        accent: red
-        scheme: default
-        toggle:
-          # icon: material/toggle-switch
-          icon: material/lightbulb
-          name: Switch to dark mode  
+          name: auto mode 
           
       # Palette toggle for dark mode
       - media: "(prefers-color-scheme: dark)"
@@ -30,7 +20,17 @@ theme:
         toggle:
           # icon: material/toggle-switch-off-outline
           icon: material/lightbulb-outline
-          name: Switch to light mode
+          name: dark mode
+            
+      # Palette toggle for light mode
+      - media: "(prefers-color-scheme: light)"
+        primary: blue grey
+        accent: red
+        scheme: default
+        toggle:
+          # icon: material/toggle-switch
+          icon: material/lightbulb
+          name: light mode            
 
   logo: assets/logos/88saiba-logo-removebg-preview.png
   favicon: assets/logos/88saiba-logo-removebg-preview.png
@@ -117,6 +117,10 @@ extra:
     - icon: fontawesome/brands/x-twitter 
       link: https://x.com/88saiba
       name: "x.com"
+  extra_css: 
+    - stylesheets/extra.css
+  extra_javascript:
+    - javascripts/extra.js
 
 nav:
     - Home: 
