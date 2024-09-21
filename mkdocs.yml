@@ -3,7 +3,14 @@ site_description: In Personal Devblog-site
 site_url: https://mydomain.org/mysite
 theme:
   name: material
-  palette: 
+  palette:
+
+     # Palette toggle for automatic mode
+      - media: "(prefers-color-scheme)"
+        toggle:
+          # icon: material/brightness-auto
+          icon: material/lightbulb-auto
+          name: Switch to light mode 
   
       # Palette toggle for dark mode
       - media: "(prefers-color-scheme: dark)"
@@ -119,7 +126,7 @@ nav:
     - Posts:
         - blog/index.md
     - About: 
-        - Me: about/about.md
+        - Me: about/me.md
         - Projects: about/projects.md
         
 copyright: Copyright &copy; 2023 - 2024 Gillar Ajie Prasatya
