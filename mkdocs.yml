@@ -11,17 +11,7 @@ theme:
           # icon: material/brightness-auto
           icon: material/lightbulb-auto
           name: Switch to light mode 
-  
-      # Palette toggle for dark mode
-      - media: "(prefers-color-scheme: dark)"
-        primary: light blue
-        accent: red
-        scheme: slate
-        toggle:
-          # icon: material/toggle-switch-off-outline
-          icon: material/lightbulb-outline
-          name: Switch to light mode
-          
+            
       # Palette toggle for light mode
       - media: "(prefers-color-scheme: light)"
         primary: blue grey
@@ -32,6 +22,16 @@ theme:
           icon: material/lightbulb
           name: Switch to dark mode  
           
+      # Palette toggle for dark mode
+      - media: "(prefers-color-scheme: dark)"
+        primary: light blue
+        accent: red
+        scheme: slate
+        toggle:
+          # icon: material/toggle-switch-off-outline
+          icon: material/lightbulb-outline
+          name: Switch to light mode
+
   logo: assets/logos/88saiba-logo-removebg-preview.png
   favicon: assets/logos/88saiba-logo-removebg-preview.png
   language: en
