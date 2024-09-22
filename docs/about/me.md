@@ -1,7 +1,8 @@
-# Gillar Ajie Prasatya
-
-Nickname : <a href="https://x.com/88saiba">88saiba</a><br>
-Pennemu : <a href="https://github.com/88saiba">Yatsugi Saiba | 八次才葉</a>
+<div>
+	<h1 class="rname">Gillar Ajie Prasatya</h1>
+	<p class="rname">Nickname : <a href="https://x.com/88saiba">88saiba</a></p>
+	<p class="rname">Penname : <a href="https://github.com/88saiba">Yatsugi Saiba | 八次才葉</a></p>
+</div>
 
 I became acquainted with programming in 2015, but at the time, I couldn’t focus on it due to my role as a customer service representative. Learning resources were also scarce and often came with unaffordable fees. In 2023, I shifted my focus to programming more seriously, thanks to the increased accessibility of learning resources in recent years, many of which are now available for free. This made it easier to commit fully and consistently to pivoting to becoming a programmer.
 
