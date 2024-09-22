@@ -6,13 +6,15 @@
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 120px; /* Set untuk gambar potret */
+  max-width: 150px; /* Set untuk gambar potret */
   max-height: 180px; /* Set untuk gambar potret */
   text-align: center;
-  font-family: arial;
+  font-family: 'Nunito', Arial, sans-serif;
   display: flex; /* Menggunakan Flexbox untuk isi card */
   flex-direction: column; /* Menyusun elemen secara vertikal */
   justify-content: space-between; /* Memastikan jarak antar elemen */
+  border-radius: 7px; /* Atur radius sesuai kebutuhan */
+  overflow: hidden; /* Agar isi card tidak melampaui sudut */
 }
 
 .card img {
@@ -23,24 +25,28 @@
 .card h1 {
   font-size: 14px;
   margin: 0; /* Menghapus margin default */
+  font-family: 'Nunito', Arial, sans-serif;
 }
 
 .card p.text {
   padding: 0 10px; /* Menambahkan padding kiri dan kanan */
   font-size: 10px; /* Ukuran teks */
+  font-family: 'Nunito', Arial, sans-serif;
 }
 
 .card button {
   border: none;
   outline: 0;
   padding: 6px; /* Ukuran button */
-  color: white;
-  background-color: #000;
+  color: #fff;
+  background-color: #0437F2;
   text-align: center;
+  font-family: 'Nunito', Arial, sans-serif;
   cursor: pointer;
   width: 80%;
   font-size: 9px; /* Ukuran teks button */
   margin-top: auto; /* Memastikan tombol berada di bawah */
+  border-radius: 3px; /* Atur radius sesuai kebutuhan */
 }
 
 .card button:hover {
