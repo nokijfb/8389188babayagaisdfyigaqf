@@ -6,7 +6,7 @@
 
 <div>
 	<i class='fas fa-fire-alt' style='font-size:18px'></i>
-	<span> Hot Articles</span><br><br>
+	<span> Hot articles</span><br><br>
 </div>
 
 <div class="container">
@@ -35,7 +35,7 @@
 <br>
 <div>
 	<i class="fa-solid fa-book-bookmark"></i>
-	<span>Newest Posts</span>
+	<span>Newest posts list</span>
 </div>
 	
 ## There is no latest post listed yet.
