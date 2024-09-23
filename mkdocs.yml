@@ -14,7 +14,7 @@ theme:
           
       # Palette toggle for dark mode
       - media: "(prefers-color-scheme: dark)"
-        primary: light blue
+        primary: custom
         accent: red
         scheme: slate
         toggle:

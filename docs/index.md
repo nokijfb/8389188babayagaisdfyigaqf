@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="/docs/stylesheet/extra.css">
-<script src="/docs/javascript/extra.js"></script>
 <script src="https://kit.fontawesome.com/76d9b5d027.js" crossorigin="anonymous"></script>
 
 # Latest posts

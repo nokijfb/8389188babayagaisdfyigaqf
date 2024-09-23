@@ -1,3 +1,7 @@
+:root {
+  --md-primary-fg-color:  #0437F2;
+}
+
 .container {
   display: flex; /* Menggunakan Flexbox untuk membuat konten berderet */
   justify-content: flex-start; /* Menyusun konten ke kiri */
@@ -15,6 +19,12 @@
   justify-content: space-between; /* Memastikan jarak antar elemen */
   border-radius: 7px; /* Atur radius sesuai kebutuhan */
   overflow: hidden; /* Agar isi card tidak melampaui sudut */
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow lebih besar saat hover */
+  transform: scale(1.05); /* Sedikit memperbesar card saat di-hover */
+  transition: 0.3s ease; /* Tambahkan transisi agar efeknya lebih halus */
 }
 
 .card img {
