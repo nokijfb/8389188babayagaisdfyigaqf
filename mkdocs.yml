@@ -117,6 +117,9 @@ extra:
     - icon: fontawesome/brands/x-twitter 
       link: https://x.com/88saiba
       name: "x.com"
+    - icon: fontawesome/brands/youtube 
+      link: https://youtube.com/@kuresains-id
+      name: "youtube"
 
 extra_css: 
     - stylesheets/extra.css
