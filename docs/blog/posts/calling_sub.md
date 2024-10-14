@@ -75,7 +75,7 @@ print $output2;  # Outputs: First: 3, Second: 4
 
 - **Explicit Argument Passing**: When using the `&` symbol, be aware that you're bypassing the automatic argument handling, which can lead to unexpected behavior. Here are two examples to illustrate this:
 
-  - **Example 1 - Missing Arguments**:
+  **Example 1 - Missing Arguments**:
     ```perl linenums="1"
     sub calculate_product {
         my ($a, $b) = @_;  # Capture arguments
@@ -90,7 +90,7 @@ print $output2;  # Outputs: First: 3, Second: 4
     ```
     In this case, both calls produce the same unexpected result because the second argument is missing, leading to `undefined` behavior.
 
-  - **Example 2 - Altered Arguments**:
+  **Example 2 - Altered Arguments**:
     ```perl linenums="1"
     sub greet {
         my ($name) = @_;  # Capture argument
