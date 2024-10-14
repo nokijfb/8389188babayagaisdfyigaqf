@@ -54,9 +54,10 @@ Now that Dancer2 is available locally, use it to initialize the project structur
 carton exec dancer2 -a MyWebApp
 ```
 This command will generate a scaffold for your web application with directories such as:
-- `bin/` – contains the script to run your app.
-- `lib/` – your application logic.
-- `views/` – templates for rendering HTML.
+
+- `bin/` contains the script to run your app.
+- `lib/` your application logic.
+- `views/` templates for rendering HTML.
 
 #### 6. Basic Application Example
 In the `bin/app.pl` file, you'll find a basic starter code. You can modify it like this to create a simple greeting app:
