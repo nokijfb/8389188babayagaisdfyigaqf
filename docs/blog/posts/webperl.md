@@ -8,48 +8,60 @@ tags:
 ---
 
 # Perl Webdev
+#### BUILD A WEBAPPS with `Perl`, `Dancer2`, AND `Carton`
 
-There are various frameworks that help developers create web applications. One popular framework among Perl developers is Dancer2. This framework offers a clean and easy-to-understand syntax, along with a comprehensive set of features to quickly and efficiently build web applications.<!-- more -->
- This article aims to discuss the steps involved in building a simple web application using Dancer2 and setting up an isolated environment using Carton, a dependency management tool for Perl.
+In the Perl ecosystem, **Dancer2** is one of the most popular frameworks for building web applications due to its simplicity and flexibility. Coupled with **Carton**, which manages dependencies in an isolated environment, you can create scalable and organized web apps.<!-- more --> This article walks you through the process, ensuring your project structure is correct and maintainable
 
-###Why Choose Dancer2?
-Dancer2 is an excellent choice for Perl developers looking to create web applications for several reasons:
-1. **Simplicity and Lightness**: Dancer2 has a minimalist design that allows developers to focus on application logic without getting bogged down in complex configurations.
-2. **REST Support**: This framework makes it easy to create RESTful APIs, which are crucial in modern application development.
-3. **Strong Ecosystem**: Dancer2 has numerous plugins and modules available for enhancing application functionality.
+### Why Choose Dancer2?
+Dancer2 stands out for several reasons:
+1. **Minimal Configuration**: It's easy to set up and start developing immediately, letting you focus on building rather than configuring.
+2. **Built-in Support for REST**: Building APIs or interacting with external systems is straightforward.
+3. **Rich Plugin Ecosystem**: There’s an abundance of plugins to extend your app without extra complexity.
 
-###Environment Setup
-Before diving into application development, make sure you have Perl installed. Me personally use asdf to manage Perl versions, which makes it easy to switch between different programming languages. We'll also be using Carton to handle our project's dependencies.
+### Project Setup: Step-by-Step
 
-###Installing Carton
-To install Carton, you can use the following command:
+#### 1. Create Your Project Directory
+First, create a new directory for your project and move into it:
+```bash linenums="1"
+mkdir MyWebApp
+cd MyWebApp
+```
 
+#### 2. Install Carton
+Install Carton if it’s not already installed:
 ```bash linenums="1"
 cpanm Carton
 ```
 
-Make sure you have `cpanm` installed beforehand. Carton will help us manage local project dependencies without interfering with global installations on the system.
-
-###Creating a Web Application
-Once Carton is installed, we are ready to create a simple web application. In this example, we will build an application that greets users with a given name.
-
-###1. Creating a `cpanfile`
-Create a file named `cpanfile` in your project directory and add the required dependencies:
-
+#### 3. Create a `cpanfile`
+Within your project folder, create a file called `cpanfile` to define the dependencies for your app:
 ```perl linenums="1"
 requires 'Dancer2';
 ```
 
-The `cpanfile` serves to define all the dependencies required by your project. Using Carton, we can install all dependencies defined in this file.
+This file will help Carton handle dependency management for your project.
 
-###2. Creating the Application File
-Create a file named `app.pl` with the following content:
+#### 4. Install Dependencies
+After setting up the `cpanfile`, install the defined dependencies with Carton:
+```bash linenums="1"
+carton install
+```
+This will install **Dancer2** and any related modules into the local project environment.
 
+#### 5. Initialize Your Dancer2 Application
+Now that Dancer2 is available locally, use it to initialize the project structure:
+```bash linenums="1"
+carton exec dancer2 -a MyWebApp
+```
+This command will generate a scaffold for your web application with directories such as:
+- `bin/` – contains the script to run your app.
+- `lib/` – your application logic.
+- `views/` – templates for rendering HTML.
+
+#### 6. Basic Application Example
+In the `bin/app.pl` file, you'll find a basic starter code. You can modify it like this to create a simple greeting app:
 ```perl linenums="1"
 #!/usr/bin/env perl
-
-use strict;
-use warnings;
 use Dancer2;
 
 get '/' => sub {
@@ -63,39 +75,21 @@ get '/greet/:name' => sub {
 
 start;
 ```
+This simple app provides two routes:
+- `/` returns "Hello, World!"
+- `/greet/:name` returns a personalized greeting.
 
-A brief explanation of the code above:
-- **Shebang Line**: `#!/usr/bin/env perl` allows the script to be run using the Perl interpreter installed on the system.
-- **Strict and Warnings**: These modules help catch errors in the code.
-- **Routing**: Using `get` to define the routes that the application will handle. Here, we define two routes: one for the homepage (`/`) and one for greeting users based on the provided name (`/greet/:name`).
-
-###3. Installing Dependencies
-After creating the `cpanfile`, we need to install all the listed dependencies. Run the following command in the terminal:
-
+#### 7. Run the Application
+You can now run the app with Carton:
 ```bash linenums="1"
-carton install
+carton exec perl bin/app.pl
 ```
+The app will run at `http://localhost:3000`. To test it, open a browser and visit:
+- `http://localhost:3000/` for "Hello, World!"
+- `http://localhost:3000/greet/YourName` for a personalized greeting.
 
-This command will read the `cpanfile` and install all necessary modules into the local project folder.
-
-###4. Running the Application
-To run the application, use the following command:
-
-```bash linenums="1"
-carton exec perl app.pl
-```
-
-The application will run and can be accessed at `http://localhost:3000/`. If you access `http://localhost:3000/greet/name`, you will see the response "Hello, name!".
-
-###Setting Up an Isolated Environment with Carton
-One of the advantages of using Carton is its ability to manage project dependencies without interfering with global installations. This is particularly useful when working on multiple projects with different dependencies. With Cart
-
-on, all required dependencies will be stored within the project folder, keeping the development environment clean and organized.
-
-###Steps to Create an Isolated Environment
-1. **Create a `cpanfile`**: Add all the required dependencies to the `cpanfile`.
-2. **Install Dependencies**: Run the command `carton install` to install all listed dependencies.
-3. **Run the Application with Carton**: Use `carton exec perl app.pl` to ensure that all installed dependencies are used when running the application.
+### Managing Dependencies with Carton
+Carton ensures that all dependencies are stored locally within the project. This prevents conflicts between different projects or system-level packages, keeping your environment clean. Each time you want to run or modify the app, use `carton exec` to ensure it uses the locally installed modules.
 
 ---
 You can easily build well-organized and isolated web applications. Properly managing dependencies in application development provides a solid foundation for building more complex web applications in the future (from what I've learned so far). This is just a part of my practical implementation of learning the Perl language.

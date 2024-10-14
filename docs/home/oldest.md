@@ -1,5 +1,7 @@
 # Oldest posts
 
+## [2023/04/27 | Compound Assignment Operators](../blog/posts/compound_assignment_operators.md)
+## [2023/04/26 | Ways to Call `sub` in perl](../blog/posts/calling_sub.md)
 ## [2023/04/25 | `return` Statement](../blog/posts/ts_return.md)
 ## [2023/04/24 | `return` Statement in Perl](../blog/posts/pl_return.md)
 ## [2023/04/23 | Perl Webdev](../blog/posts/webperl.md)
