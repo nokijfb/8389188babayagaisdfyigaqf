@@ -37,7 +37,7 @@ Let’s look at how different programming languages implement subroutines and fu
 
 In Python, functions are the primary means of creating reusable code blocks. Here’s an example of a simple function:
 
-```python
+```python linenums="1"
 def add_numbers(a, b):  # This is a function
     return a + b  # It returns the sum of a and b
 
@@ -51,7 +51,7 @@ In this example, `add_numbers` is a function that takes two parameters, `a` and 
 
 JavaScript uses functions extensively, similar to Python. Here’s how you can define a function:
 
-```javascript
+```javascript linenums="1"
 function greet(name) {  // This is a function
     return "Hello, " + name;  // It returns a greeting message
 }
@@ -66,7 +66,7 @@ The `greet` function takes one parameter, `name`, and returns a greeting string.
 
 In Perl, the term **subroutine** is commonly used. Here’s an example:
 
-```perl
+```perl linenums="1"
 sub multiply {  # This is a subroutine
     my ($x, $y) = @_;  # Getting parameters
     return $x * $y;  # Returning the product
@@ -78,11 +78,11 @@ print "The product is: $result\n";  # Output: The product is: 20
 
 In this example, `multiply` is a subroutine that takes two parameters and returns their product.
 
-#### 4. PL/I
+#### 4. PL/I 
 
 PL/I specifically uses the term **subroutine** as well. Here's an example of defining a subroutine:
 
-```pascal
+```pascal linenums="1"
 DCL multiply ENTRY(FIXED DECIMAL(5,2), FIXED DECIMAL(5,2)) RETURNS(FIXED DECIMAL(5,2));  // Subroutine declaration
 
 multiply: PROCEDURE(x, y) 
@@ -102,7 +102,7 @@ Here, the `multiply` subroutine calculates the product of two numbers.
 
 In Pascal, there are two types of subroutines: procedures and functions. Here’s how you can define both:
 
-```pascal
+```pascal linenums="1"
 function add(a, b: Integer): Integer;  // Function declaration
 begin
     add := a + b;  // Returning the sum

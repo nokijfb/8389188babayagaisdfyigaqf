@@ -15,12 +15,12 @@ The `return` statement is essential in function design. This article will clarif
 
 #### What is `return`?
 
-The `return` statement in TypeScript is used in functions to specify the value that should be returned to the calling context. It effectively ends the function's execution and sends a value back.
+The `return` statement is used in functions to specify the value that should be returned to the calling context. It effectively ends the function's execution and sends a value back.
 
 #### Why is `return` Important?
 
 1. **Data Handling**: Functions without `return` cannot provide results to the rest of the program.
-2. **Type Safety**: TypeScript allows you to define the return type, ensuring that the function returns the expected data type.
+2. **Type Consistency**: Using `return` ensures that the function provides a value that aligns with the expected data type, especially in languages with type checking.
 3. **Clarity**: Using `return` makes it clear that the function is meant to produce and deliver a value.
 4. **Reduced Ambiguity**: Without an explicit `return`, it may not be clear how values are generated and returned.
 
@@ -28,7 +28,7 @@ The `return` statement in TypeScript is used in functions to specify the value t
 
 Here’s an example demonstrating the use of `return` in a TypeScript function that sums two numbers:
 
-```typescript
+```typescript linenums="1"
 function add(a: number, b: number): number {
     return a + b;  // Returns the sum
 }
@@ -45,7 +45,7 @@ In this example, the `add` function returns the result of adding two numbers, wi
 
 When `return` is explicitly used, the output of the function is clear. The reader understands that the function is intended to return a value.
 
-```typescript
+```typescript linenums="1"
 function add(a: number, b: number): number {
     return a + b;  // Returns the sum
 }
@@ -57,7 +57,7 @@ This ensures that the result is returned for further use.
 
 If `return` is omitted, the last evaluated expression is returned implicitly, which can lead to confusion.
 
-```typescript
+```typescript linenums="1"
 function add(a: number, b: number): number {
     a + b;  // Implicitly returns the sum
 }

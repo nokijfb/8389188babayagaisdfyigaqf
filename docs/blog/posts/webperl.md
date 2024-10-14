@@ -24,7 +24,7 @@ Before diving into application development, make sure you have Perl installed. M
 ###Installing Carton
 To install Carton, you can use the following command:
 
-```bash
+```bash linenums="1"
 cpanm Carton
 ```
 
@@ -36,7 +36,7 @@ Once Carton is installed, we are ready to create a simple web application. In th
 ###1. Creating a `cpanfile`
 Create a file named `cpanfile` in your project directory and add the required dependencies:
 
-```perl
+```perl linenums="1"
 requires 'Dancer2';
 ```
 
@@ -45,7 +45,7 @@ The `cpanfile` serves to define all the dependencies required by your project. U
 ###2. Creating the Application File
 Create a file named `app.pl` with the following content:
 
-```perl
+```perl linenums="1"
 #!/usr/bin/env perl
 
 use strict;
@@ -72,7 +72,7 @@ A brief explanation of the code above:
 ###3. Installing Dependencies
 After creating the `cpanfile`, we need to install all the listed dependencies. Run the following command in the terminal:
 
-```bash
+```bash linenums="1"
 carton install
 ```
 
@@ -81,7 +81,7 @@ This command will read the `cpanfile` and install all necessary modules into the
 ###4. Running the Application
 To run the application, use the following command:
 
-```bash
+```bash linenums="1"
 carton exec perl app.pl
 ```
 

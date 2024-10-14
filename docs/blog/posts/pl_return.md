@@ -29,7 +29,7 @@ The `return` statement is used in functions, including subroutines in Perl, to s
 
 Let’s look at a simple example in Perl where `return` is used in a function that calculates the sum of two numbers:
 
-```perl
+```perl linenums="1"
 sub add {
     my ($a, $b) = @_;
     return $a + $b;  # Returns the sum
@@ -47,7 +47,7 @@ In the example above, the `add` function returns the result of adding two number
 
 When `return` is used, the output of the function is explicitly defined. The reader knows immediately that the function is meant to return a specific value.
 
-```perl
+```perl linenums="1"
 sub add {
     my ($a, $b) = @_;
     return $a + $b;  # Returns the sum
@@ -60,7 +60,7 @@ This ensures that the result of the addition is returned and can be used elsewhe
 
 If `return` is not used, the last evaluated expression in the function is automatically returned. This might cause confusion for the reader, as it is not explicitly stated that the function is meant to return a value.
 
-```perl
+```perl linenums="1"
 sub add {
     my ($a, $b) = @_;
     $a + $b;  # Executes the addition, but no return statement
