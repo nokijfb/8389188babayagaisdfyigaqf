@@ -19,7 +19,7 @@ Dancer2 is an excellent choice for Perl developers looking to create web applica
 3. **Strong Ecosystem**: Dancer2 has numerous plugins and modules available for enhancing application functionality.
 
 ###Environment Setup
-Before getting started with application development, ensure that you have Perl installed and are using **asdf** to manage Perl versions. **asdf** allows you to easily switch between different versions of programming languages. Additionally, we will use **Carton** to manage our project's dependencies.
+Before diving into application development, make sure you have Perl installed. Me personally use asdf to manage Perl versions, which makes it easy to switch between different programming languages. We'll also be using Carton to handle our project's dependencies.
 
 ###Installing Carton
 To install Carton, you can use the following command:
