@@ -9,7 +9,7 @@ tags:
 ---
 
 # Arbitrary
-## ARBITRARY of a STRINGS
+#### ARBITRARY of a STRINGS
 
 **Arbitrary string** is a **term** that refers to a `string` that can contain `any` characters without specific formatting constraints.<!-- more --> The term emphasizes that the string:
 
