@@ -1,10 +1,11 @@
 # Oldest posts
 
+## [2023/05/03 | Primitive Data Type or Perl Wierdo-Data type Design?](../blog/posts/primitive_data_type.md)
 ## [2023/05/02 | `x` operator `&&` Unicode](../blog/posts/x_opr_and_unicode.md)
 ## [2023/05/01 | Arbitrary](../blog/posts/arbitrary_term.md)
 ## [2023/04/30 | XOR and OR](../blog/posts/xor_and_or.md)
 ## [2023/04/29 | Why I Started Learning Perl](../blog/posts/learnperl.md)
-## [2023/04/28 | Bitwise on Their Practical](../blog/posts/Bitwise_on_Their_Practical.md)
+## [2023/04/28 | Bitwise in Their Practical](../blog/posts/bitwise_on_their_practical.md)
 ## [2023/04/27 | Compound Assignment Operators](../blog/posts/compound_assignment_operators.md)
 ## [2023/04/26 | Ways to Call `sub` in perl](../blog/posts/calling_sub.md)
 ## [2023/04/25 | `return` Statement](../blog/posts/ts_return.md)
