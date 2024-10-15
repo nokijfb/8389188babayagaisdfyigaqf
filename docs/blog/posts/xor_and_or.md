@@ -14,7 +14,7 @@ I know this topic has been discussed in the previous article, but as a reminder,
 
 ### XOR Operation
 
-XOR is a binary operation that compares two bits and returns `1` if they are different and `0` if they are the same. The truth table for XOR is as follows:
+XOR or Exclusive OR is a binary operation that compares two bits and returns `1` if they are different and `0` if they are the same. The truth table for XOR is as follows:
 
 | A | B | A XOR B |
 |---|---|---------|
