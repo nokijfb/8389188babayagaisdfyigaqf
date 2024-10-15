@@ -1,5 +1,6 @@
 # Oldest posts
 
+## [2023/05/02 | `x` operator `&&` Unicode](../blog/posts/x_opr_and_unicode.md)
 ## [2023/05/01 | Arbitrary](../blog/posts/arbitrary_term.md)
 ## [2023/04/30 | XOR and OR](../blog/posts/xor_and_or.md)
 ## [2023/04/29 | Why I Started Learning Perl](../blog/posts/learnperl.md)
