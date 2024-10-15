@@ -40,6 +40,6 @@ title: Latest posts
 	<span>Newest posts list</span>
 </div>
 	
-## There is no latest post listed yet.
+### [WordPress.org has rebranded WP Engine](blog/posts/15102024news.md)
 
 
