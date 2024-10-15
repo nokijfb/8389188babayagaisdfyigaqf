@@ -1,5 +1,6 @@
 # Oldest posts
 
+## [2023/05/01 | Arbitrary](../blog/posts/arbitrary_term.md)
 ## [2023/04/30 | XOR and OR](../blog/posts/xor_and_or.md)
 ## [2023/04/29 | Why I Started Learning Perl](../blog/posts/learnperl.md)
 ## [2023/04/28 | Bitwise on Their Practical](../blog/posts/Bitwise_on_Their_Practical.md)
