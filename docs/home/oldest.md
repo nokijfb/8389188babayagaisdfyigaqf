@@ -1,5 +1,6 @@
 # Oldest posts
 
+## [2023/05/05 | Script w/out #!](../blog/posts/script_wo_shebang.md)
 ## [2023/05/04 | Context and Arguments gave me a headache for a while](../blog/posts/context.md)
 ## [2023/05/03 | Primitive Data Type or Perl Wierdo-Data type Design?](../blog/posts/primitive_data_type.md)
 ## [2023/05/02 | `x` operator `&&` Unicode](../blog/posts/x_opr_and_unicode.md)
