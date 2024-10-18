@@ -1,5 +1,6 @@
 # Oldest posts
 
+## [2023/05/07 | Enums](../blog/posts/enums.md)
 ## [2023/05/06 | Messing w/ print](../blog/posts/messing_w_print.md)
 ## [2023/05/05 | Script w/out #!](../blog/posts/script_wo_shebang.md)
 ## [2023/05/04 | Context and Arguments gave me a headache for a while](../blog/posts/context.md)
