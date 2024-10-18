@@ -15,15 +15,15 @@ tags:
 ###### Post Updated: August 22, 2023
 #### FROM CONFUSION TO CLARITY
 
-So, there I was, scrolling through [*X*](https://x.com/88saiba) one lazy afternoon—just catching up on the usual memes, tech banter, and random thoughts—when I stumbled upon something oddly specific. It was a meme about enums. Yep, enums.<!-- more -->
+So, there I was, scrolling through [*X*](https://x.com/88saiba) one lazy afternoon—just catching up on the usual memes, tech banter, and random thoughts—when I stumbled upon something oddly specific. It was a meme about `enums`. Yep, `enums`.<!-- more -->
 
-Now, if you’ve ever watched *Tom and Jerry*, you know Tom, the cat, always finds himself in ridiculous situations. Well, this meme had two versions of *Tom: one looking like his usual clueless self*, labeled **“Enums in TypeScript”**, and *another flexing like a hero straight out of an action movie*, captioned **“Enums in Rust.”** Now, I hadn’t even heard of `enums` at that point, but apparently, Rust’s `enums` are like a boss, and TypeScript’s, well… not so much.
+Now, if you’ve ever watched *Tom and Jerry*, you know Tom, the cat, always finds himself in ridiculous situations. Well, this meme had two versions of *Tom: one looking like his usual clueless self*, labeled **“Enums in TypeScript”**, and *another flexing like a hero straight out of an action movie*, captioned **“Enums in Rust.”** Now, I hadn’t even heard about this comparison, but apparently, Rust’s `enums` are like a boss, and TypeScript’s, well… not so much.
 
-That got me wondering: <b>What are enums, anyway?</b>
+That got me wondering: **What are enums from this perspective, anyway?**
 
 #### So, What Are Enums?
 
-After a bit of searching, I found out that `enums` (short for ***enumerations***) are a way to define a set of fixed, predefined values. Sounds fancy, but let me break it down for you with a simple example.
+**`Enums`** (short for ***enumerations***) are a way to define a set of fixed, predefined values. Sounds fancy, but let me break it down for you with a simple example.
 
 Imagine you’re designing a traffic light system. The light can only be one of three colors: <b style="color:red">Red</b>, <b style="color:yellow">Yellow</b>, or <b style="color:green">Green</b>. There are no options for <b style="color:blue">Blue</b>, <b style="color:purple">Purple</b>, or anything else—just these three specific colors. Now, if you were to code this traffic light system, you’d need a way to ensure that only these valid colors can be used. How do you make sure no one accidentally selects <b style="color:blue">“Blue”</b> for the traffic light?
 

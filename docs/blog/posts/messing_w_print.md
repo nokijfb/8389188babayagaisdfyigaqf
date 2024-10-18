@@ -25,7 +25,7 @@ sub post {
 my throw_up = post(22, 33);
 print(throw_up);
 ```
-Just trying to write a simple script to sum two numbers and print the result. Here’s what I started with ᕕ( ᐛ )ᕗ
+Just trying to write a simple script to sum two numbers and print the result.<!-- more --> Here’s what I started with ᕕ( ᐛ )ᕗ
 When I ran that random script, I got this error:
 
 ```
