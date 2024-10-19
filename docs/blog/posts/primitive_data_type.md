@@ -37,7 +37,6 @@ print $array[0];  # Outputs "apple"
 Hashes are unordered collections of key-value pairs. Each key must be unique, and they are denoted with the % symbol. Hashes allow for efficient data retrieval using keys.
 
 ```perl linenums="1"
-Copy code
 my %hash = (
     "name" => "John",
     "age" => 30,

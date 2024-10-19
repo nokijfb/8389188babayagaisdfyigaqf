@@ -1,7 +1,9 @@
 # Oldest posts
 
-## [2023/05/08 | Lilbit Meta-Programming Knowledge](../blog/posts/meta_programming.md)
-## [2023/05/07 | Quote_Operators](../blog/posts/quote_operators.md)
+## [2023/05/11 | Fibonacci Sequence](../blog/posts/fibonacci_sequence.md)
+## [2023/05/10 | Loop Experiment](../blog/posts/loop_experiment.md)
+## [2023/05/09 | Lilbit Meta-Programming Knowledge](../blog/posts/meta_programming.md)
+## [2023/05/08 | Quote_Operators](../blog/posts/quote_operators.md)
 ## [2023/05/07 | Enums](../blog/posts/enums.md)
 ## [2023/05/06 | Messing w/ print](../blog/posts/messing_w_print.md)
 ## [2023/05/05 | Script w/out #!](../blog/posts/script_wo_shebang.md)
