@@ -1,5 +1,6 @@
 # Oldest posts
 
+## [2023/05/08 | Lilbit Meta-Programming Knowledge](../blog/posts/meta_programming.md)
 ## [2023/05/07 | Quote_Operators](../blog/posts/quote_operators.md)
 ## [2023/05/07 | Enums](../blog/posts/enums.md)
 ## [2023/05/06 | Messing w/ print](../blog/posts/messing_w_print.md)
