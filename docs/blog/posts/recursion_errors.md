@@ -128,15 +128,22 @@ After conducting a series of experiments, I began to wonder *"how I could preven
 In Python, I realized that adding type checks can be very helpful. For example, I decided to ensure that the argument passed is an integer before proceeding:
 
 ```python linenums="1"
+# def main():
+#     print(is_even(13))  # Output: False
+#     print(is_odd(13))   # Output: True
+  
 def is_even(x):
     if isinstance(x, int):  # Check if x is an integer
-        return not is_odd(x)
+        return x % 2 == 0  # Return True if even, False if odd
     return None  # Return None if x is not an integer
 
 def is_odd(x):
     if isinstance(x, int):  # Check if x is an integer
-        return not is_even(x)
+        return x % 2 != 0  # Return True if odd, False if even
     return None  # Return None if x is not an integer
+    
+if __name__ == "__main__":
+    main()
 ```
 
 This can prevent unnecessary recursion when an invalid argument is passed.
@@ -145,18 +152,34 @@ This can prevent unnecessary recursion when an invalid argument is passed.
 In Go, I also tried adding a simple validation function. This helps ensure that only one argument is accepted before calling the recursive function:
 
 ```go linenums="1"
+package main
+
+import "fmt"
+
+// Function to check if the number is even
 func isEven(x int) bool {
-    return !isOdd(x)
+    return x%2 == 0 // Return true if x is even
 }
 
+// Function to check if the number is odd
 func isOdd(x int) bool {
-    return !isEven(x)
+    return x%2 != 0 // Return true if x is odd
 }
 
 // Function to validate the argument
 func isValid(n int) bool {
-    return n >= 0  // For example, only accept non-negative integers
+    return n >= 0 // For example, only accept non-negative integers
 }
+
+// func main() {
+//     num := 13
+//     if isValid(num) {
+//         fmt.Printf("%d is even: %v\n", num, isEven(num))
+//         fmt.Printf("%d is odd: %v\n", num, isOdd(num))
+//     } else {
+//         fmt.Println("Invalid input.")
+//     }
+// }
 ```
 
 By adding this validation function, I felt safer calling the recursive function, knowing that the argument passed meets certain criteria.
@@ -166,37 +189,39 @@ Lastly, for Perl, I thought about using logic to check the number of arguments r
 
 ```perl linenums="1"
 sub is_even {
-    return !is_odd($_[0]) if @_ == 1;  # Check for one argument
-    return undef;  # Return undef if more than one argument is passed
+    return undef unless defined $_[0] && $_[0] =~ /^\d+$/;  # Check if the argument is a positive integer
+    return $_[0] % 2 == 0;  # Return true if the number is even
 }
 
 sub is_odd {
-    return !is_even($_[0]) if @_ == 1;  # Check for one argument
-    return undef;  # Return undef if more than one argument is passed
+    return undef unless defined $_[0] && $_[0] =~ /^\d+$/;  # Check if the argument is a positive integer
+    return $_[0] % 2 != 0;  # Return true if the number is odd
+}
+
+# Example usage
+my $num = 13;
+if (defined $num) {
+    print "$num is even: " . (is_even($num) // "undef") . "\n";
+    print "$num is odd: " . (is_odd($num) // "undef") . "\n";
+} else {
+    print "Invalid input.\n";
 }
 ```
+#### Explanation
+##### Argument Check:
 
-To avoid **recursion errors** in Perl, I also thought about adding a type check, similar to the approach in Python. For example, I could add code to check if the argument is an integer:
+- `return undef unless defined $_[0] && $_[0] =~ /^\d+$/;`: This line checks if the first argument is defined and matches the [regex](https://perldoc.perl.org/perlre#Regular-Expressions) pattern for a positive integer (one or more digits). If not, it returns `undef`.
 
-```perl linenums="1"
-sub is_even {
-    return undef unless defined $_[0] && $_[0] =~ /^\d+$/;  # Check if the argument is an integer
-    return !is_odd($_[0]) if @_ == 1;  # Check for one argument
-    return undef;  # Return undef if more than one argument is passed
-}
+- This prevents the functions from calling each other indefinitely without boundaries.
 
-sub is_odd {
-    return undef unless defined $_[0] && $_[0] =~ /^\d+$/;  # Check if the argument is an integer
-    return !is_even($_[0]) if @_ == 1;  # Check for one argument
-    return undef;  # Return undef if more than one argument is passed
-}
-``` 
-This line is present in both is_even and is_odd functions.
+##### Using Modulus Operator:
 
-- defined `$_[0]`: Checks if the first argument (input) is defined (not `undef`).
-- `$_[0] =~ /^\d+$/`: Uses a [regular expression](https://perldoc.perl.org/perlre#Regular-Expressions) to ensure that the input is a valid integer (a `string` of `digits`).
+- `$_[0] % 2 == 0`: This checks if the argument is even. If the result is true, the function returns true.
+- `$_[0] % 2 != 0`: This checks if the argument is odd. If the result is true, the function returns true.
 
-This input validation step ensures that both functions only process valid integers. If the input is invalid (either not provided or not an integer), the function returns `undef`. This prevents potential errors and ensures the functions operate correctly.
+##### Function Usage:
+
+The example usage at the bottom demonstrates how to call the is_even and is_odd functions. If the argument is valid, it prints the results accordingly.
 
 This ensures that only valid integer arguments are processed, helping avoid potential recursion issues.<br>
 Just a disclaimer, all the solutions I’ve written above are purely based on my own experiments, so they aren’t definitive or entirely accurate ways to resolve recursion errors. I’m sure there are simpler and more effective methods out there to address this issue.
