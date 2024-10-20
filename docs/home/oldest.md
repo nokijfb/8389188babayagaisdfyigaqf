@@ -1,5 +1,6 @@
 # Oldest posts
 
+## [2023/05/12 | Recursion Errors](../blog/posts/recursion_errors.md)
 ## [2023/05/11 | Fibonacci Sequence](../blog/posts/fibonacci_sequence.md)
 ## [2023/05/10 | Loop Experiment](../blog/posts/loop_experiment.md)
 ## [2023/05/09 | Lilbit Meta-Programming Knowledge](../blog/posts/meta_programming.md)
