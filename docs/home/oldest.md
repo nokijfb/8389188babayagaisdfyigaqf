@@ -1,5 +1,6 @@
 # Oldest posts
 
+## [2023/05/14 | Variabel Scope](../blog/posts/variabel_scope.md)
 ## [2023/05/13 | Looping Scheme](../blog/posts/looping_scheme.md)
 ## [2023/05/12 | Recursion Errors](../blog/posts/recursion_errors.md)
 ## [2023/05/11 | Fibonacci Sequence](../blog/posts/fibonacci_sequence.md)
