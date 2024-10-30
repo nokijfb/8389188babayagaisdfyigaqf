@@ -57,6 +57,7 @@ theme:
 
 plugins:
   - search
+  - glightbox
   - social
   - tags:
         tags_file: home/tags.md
@@ -130,6 +131,9 @@ extra_javascript:
 nav:
     - Home: 
         - index.md
+        # - λEx ebook: home/ebooks/efunc.md
+        # - λperl posts: home/ebooks/pfunc.md
+        # - λJavascript: home/ebooks/jfunc.md
         - Oldest posts: home/oldest.md
         - Tags: home/tags.md
     - Posts:
