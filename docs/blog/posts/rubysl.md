@@ -18,9 +18,6 @@ Next, I turned to **Lua**. I really enjoyed this language; it’s ***lightweight
 
 Then **Ruby** appeared as the answer. Its syntax is very easy to read, and the community is substantial—especially with the popularity of **Ruby on Rails**. Plus, I love the name and its logo. **Ruby** felt like the perfect combination to meet my scripting needs.
 
-Baik, berikut adalah penambahan detail untuk setiap modul inti yang akan memberikan pembaca gambaran lengkap tentang penggunaannya untuk scripting di terminal.
-
-
 ### Core Modules in Ruby for Terminal Scripting
 
 Before jumping into libraries, let’s explore some **core modules** in Ruby that provide essential functionality for automating tasks in the terminal. These modules allow us to manipulate files, run system commands, and handle time-based tasks directly without the need for external libraries.
