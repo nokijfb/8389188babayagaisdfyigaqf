@@ -44,7 +44,7 @@ trap 'rm -f /tmp/.apt_update_done' EXIT
 > commands.</small>
 
 <br>
-However, I wanted to add a little Ruby touch mwehehe... This was my way of practicing Ruby. I modified my code to this:
+However, I wanted to add a little Ruby touch mwehehe... This was my way to practicing Ruby. I modified my code to this:
 
 ```bash linenums="1"
 if [ ! -f /tmp/.apt_update_done ]; then
