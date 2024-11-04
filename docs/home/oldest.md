@@ -1,5 +1,6 @@
 # Oldest posts
 
+## [2023/05/20 | Intelligent Systems Reliability and Security Engineering (ISRSE)](../blog/posts/isrse.md)
 ## [2023/05/19 | Ruby and Bash Coding Scripting 0.1](../blog/posts/rbsh_scripting_adventure_0.1.md)
 ## [2023/05/18 | Effectively Managing Files](../blog/posts/ruby_effectively_managing_files.md)
 ## [2023/05/17 | Nginx - Troubleshooting Errors](../blog/posts/nginx_troubleshooting_errors.md)
