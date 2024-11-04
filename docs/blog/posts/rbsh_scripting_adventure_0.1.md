@@ -48,13 +48,13 @@ However, I wanted to add a little Ruby touch mwehehe... This was my way to pract
 
 ```bash linenums="1"
 if [ ! -f /tmp/.apt_update_done ]; then
-    ruby -e "system('sudo apt update'); File.write('/tmp/.apt_update_done', '')"
+    ruby -e 'system("sudo apt update"); File.write("/tmp/.apt_update_done", "")'
 fi
 
 trap 'ruby -e "File.delete(\"/tmp/.apt_update_done\") if File.exist?(\"/tmp/.apt_update_done\")"' EXIT
 ```
 
-- **`ruby -e "system('sudo apt update'); File.write('/tmp/.apt_update_done', '')"`**:
+- **`ruby -e 'system("sudo apt update"); File.write("/tmp/.apt_update_done", "")'`**:
   - Here, we run the command `sudo apt update` using Ruby and create the marker file using `File.write`. Let’s break this down:
     - **`ruby -e`**: Executes the Ruby code written afterwards.
     - **`system('sudo apt update')`**: Calls the command `sudo apt update` from within Ruby, just like running it in the terminal. This will update the package list on the system.
