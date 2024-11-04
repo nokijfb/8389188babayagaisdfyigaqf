@@ -2,6 +2,14 @@
 
 ## Tools
 
+### [emp](https://github.com/88saiba/emp)
+
+This CLI management panel provides a simple interface for controlling Nginx and MySQL services, with support for starting, stopping, checking the status, and monitoring logs. The script is available in both Ruby and Python versions, allowing users to choose their preferred language for the same set of functions.
+
+### [furupy | 振るpy](https://github.com/88saiba/furupy)
+
+This program help us decide which whatever doubts there are in our heart. It allows you to input a list of anythings randomly, and save the results to a text file.
+
 ### [kouetsupy | 幸悦py](https://github.com/88saiba/kouetsupy)
 
 This is a simple command-line news application written in Python. It fetches the latest news headlines using the NewsAPI and displays them in the terminal.
