@@ -1,11 +1,12 @@
 # Oldest posts
 
+## [2023/05/21 | lilbit-Modulus](../blog/posts/lilbit_modulus.md)
 ## [2023/05/20 | Intelligent Systems Reliability and Security Engineering (ISRSE)](../blog/posts/isrse.md)
-## [2023/05/19 | Ruby and Bash Coding Scripting 0.1](../blog/posts/rbsh_scripting_adventure_0.1.md)
-## [2023/05/18 | Effectively Managing Files](../blog/posts/ruby_effectively_managing_files.md)
+## [2023/05/19 | Python and Bash Coding Scripting 0.1](../blog/posts/pysh_scripting_adventure_0.1.md)
+## [2023/05/18 | Effectively Managing Files](../blog/posts/python_effectively_managing_files.md)
 ## [2023/05/17 | Nginx - Troubleshooting Errors](../blog/posts/nginx_troubleshooting_errors.md)
-## [2023/05/16 | Again... Experimenting with `return` but-in Ruby](../blog/posts/exp_ruby.md)
-## [2023/05/15 | RubySL](../blog/posts/rubysl.md)
+## [2023/05/16 | Again... Experimenting with `return` but-in Python](../blog/posts/exp_python.md)
+## [2023/05/15 | PythonSL](../blog/posts/pythonsl.md)
 ## [2023/05/14 | Variabel Scope](../blog/posts/variabel_scope.md)
 ## [2023/05/13 | Looping Scheme](../blog/posts/looping_scheme.md)
 ## [2023/05/12 | Recursion Errors](../blog/posts/recursion_errors.md)

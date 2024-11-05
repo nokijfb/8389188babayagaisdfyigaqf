@@ -12,7 +12,7 @@ tags:
 
 Recently, I ran into a tricky issue while trying to uninstall **Nginx** from my BunsenLabs system. Initially, I just wanted a fresh start, but the process ended up being more complicated than I expected, and finding the right solution took quite a bit of time.
 
-Here’s what happened…
+Here’s what happened… <!-- more -->
 
 ## The Problem's Root
 
