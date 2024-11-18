@@ -10,7 +10,7 @@ tags:
 # PythonSL
 #### The Scripting Choice for My LxMachine
 
-When it comes to scripting in the terminal, programmers generally rely on Bash, Zsh, or other shell scripts. However, since I haven’t thoroughly learned those languages yet and have only picked up a few basic commands to make my work in the terminal faster (pardon my laziness), I initially chose Perl as my main scripting language. As I started using it, I found Perl's syntax confusing and its conventions unusual. Ultimately, I realized that spending time on something that is both confusing and obsolete would only waste my time.
+When it comes to scripting in the terminal, programmers generally rely on Bash, Zsh, or other shell scripts. However, since I haven’t thoroughly learned those languages yet and have only picked up a few basic commands to make my work in the terminal faster (pardon my laziness), I initially chose Perl as my main scripting language. As I started using it, I found Perl's syntax confusing and its conventions unusual. Ultimately, I realized that spending time on something that is both confusing and obsolete would only waste my time.<!-- more -->
 
 Next, I turned to **Lua**. I really enjoyed this language; it’s ***lightweight***, ***fast***, and has a logo I find appealing. Many well-known programmers use Lua, but it isn’t versatile enough and has a relatively small community. I wanted something at least comparable to **Perl** but not **JavaScript**—I only use JavaScript for web development, so there was no way I would use it for scripting.
 
