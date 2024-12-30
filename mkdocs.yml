@@ -1,4 +1,4 @@
-site_name: 88SAIBA Personal Devblog
+site_name: nginrsw-devblog
 site_description: In Personal Devblog-site
 site_url: https://mydomain.org/mysite
 theme:
@@ -32,8 +32,8 @@ theme:
           icon: material/lightbulb
           name: light mode            
 
-  logo: assets/logos/88saiba-logo-removebg-preview.png
-  favicon: assets/logos/88saiba-logo-removebg-preview.png
+  logo: assets/logos/new-88saiba-logo.png
+  favicon: assets/logos/new-88saiba-logo.png
   language: en
   font:
       text: Nunito
