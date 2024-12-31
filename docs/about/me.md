@@ -1,6 +1,6 @@
 <div>
 	<h1 class="rname">Gillar Ajie Prasatya</h1>
-	<p class="rname">Nickname : <a href="https://x.com/88saiba">88saiba</a></p>
+	<p class="rname">Nickname : <a href="https://x.com/nginrsw">nginrsw</a></p>
 	<p class="rname">Penname : <a href="https://github.com/88saiba">Yatsugi Saiba | 八次才葉</a></p>
 </div>
 
