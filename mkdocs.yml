@@ -1,4 +1,4 @@
-site_name: nginrsw-devblog
+site_name: nginrsw
 site_description: In Personal Devblog-site
 site_url: https://mydomain.org/mysite
 theme:
@@ -24,7 +24,7 @@ theme:
             
       # Palette toggle for light mode
       - media: "(prefers-color-scheme: light)"
-        primary: blue grey
+        primary: custom
         accent: red
         scheme: default
         toggle:
@@ -33,7 +33,7 @@ theme:
           name: light mode            
 
   logo: assets/logos/new-88saiba-logo.png
-  favicon: assets/logos/new-88saiba-logo.png
+  favicon: assets/logos/record.png
   language: en
   font:
       text: Nunito
@@ -113,13 +113,13 @@ extra:
         # lang: id
   social:
     - icon: fontawesome/brands/github 
-      link: https://github.com/88saiba
+      link: https://github.com/nginrsw
       name: "github"
     - icon: fontawesome/brands/x-twitter 
-      link: https://x.com/88saiba
+      link: https://x.com/nginrsw
       name: "x.com"
     - icon: fontawesome/brands/youtube 
-      link: https://youtube.com/@kuresains-id
+      link: https://youtube.com/@nginr-sw
       name: "youtube"
 
 extra_css: 
